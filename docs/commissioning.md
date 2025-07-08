@@ -14,10 +14,18 @@ export MPC="MPCの値"
 ```
 
 ### コミッショニング
-Node IDには任意の数字を入力（例：1）
+
+#### コミッショニング（通常ver.）
+- Node IDには任意の数字を入力（例：1）
 ```bash
 chip-tool pairing code-wifi <Node-ID> "$SSID" "$PASS" "$MPC" \
   --paa-trust-store-path ../../credentials/production/paa-root-certs
+```
+
+#### コミッショニング（詳細ver.）
+- 証明書の情報などの詳細コミッショニングログを取得したい場合
+```bash
+chip-tool pairing code-wifi <Node-ID> "$SSID" "$PASS" "$MPC" --trace_decode 1 --paa-trust-store-path ../../credentials/production/paa-root-certs
 ```
 
 ## ３．コミッショニングができたか確認
