@@ -14,7 +14,7 @@ export MPC="MPCの値"
 ```
 
 ### コミッショニング
--<Node-ID>には任意のNode IDの数字を入力（例：1）
+Node IDには任意の数字を入力（例：1）
 ```bash
 chip-tool pairing code-wifi <Node-ID> "$SSID" "$PASS" $MPC \
   --paa-trust-store-path ../../credentials/production/paa-root-certs
@@ -23,8 +23,7 @@ chip-tool pairing code-wifi <Node-ID> "$SSID" "$PASS" $MPC \
 ## ３．コミッショニングができたか確認
 
 ### コミッショニングしたMatterデバイスの電源OFFができるか
-- <Node-ID> とEndpointを1と指定して操作
-
+Node IDとEndpointを1と指定して操作
 ```bash
 chip-tool onoff off <Node-ID>  1
 ```
