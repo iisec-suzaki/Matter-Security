@@ -28,10 +28,16 @@ chip-tool pairing code-wifi <Node-ID> "$SSID" "$PASS" "$MPC" \
 chip-tool pairing code-wifi <Node-ID> "$SSID" "$PASS" "$MPC" --trace_decode 1 --paa-trust-store-path ../../credentials/production/paa-root-certs
 ```
 
-## ３．コミッショニングができたか確認
+## ３．デバイスの操作例
 
 ### コミッショニングしたMatterデバイスの電源OFFができるか
 Node IDとEndpointを1と指定して操作
 ```bash
 chip-tool onoff off <Node-ID>  1
+```
+
+### コミッショニングしたMatterデバイスの電源ONができるか
+Node IDとEndpointを1と指定して操作
+```bash
+chip-tool onoff on <Node-ID>  1
 ```
