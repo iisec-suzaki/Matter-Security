@@ -89,7 +89,7 @@ MI・・・・・・・・・・・・
 -----END CERTIFICATE-----
 ```
 
-### 見つけたPEM形式のPAI証明書を読める形に変換
+### 見つけたPEM形式のDAC証明書を読める形に変換
 ```bash
 openssl x509 -text -noout -in ~/certificateDAC.pem
 ```
