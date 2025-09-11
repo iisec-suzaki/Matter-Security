@@ -109,7 +109,7 @@ Certificate:
 ```
 
 ## PAA、PAI、DACの検証
-opensslで検証チェーンを確認するのは以下。
+opensslで検証チェーンを確認するのやり方は以下。
 ```bash
 openssl verify \
   -CAfile certificatePAA.pem \
