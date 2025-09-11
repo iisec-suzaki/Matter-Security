@@ -128,7 +128,7 @@ CHIP Certificate:
 ```
 
 ## NOC、ICAC、RCACの検証
-chip-certで検証チェーンを確認するのは以下。
+chip-certで検証チェーンを確認するやり方は以下。
 ```bash
 chip-cert validate-cert noc.cert \
  -c icac.cert \
