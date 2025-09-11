@@ -1,6 +1,5 @@
 # Matter-Security
-Matter Security
-chip-tool
+Matterの競合問題のセキュリティ検証にあたって使用した、chip-toolコマンドの内容まとめです。
 
 ## ドキュメント
 - コミッショニング手順(docs/commissioning.md)
