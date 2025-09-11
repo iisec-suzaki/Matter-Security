@@ -96,7 +96,7 @@ FT~
 [1749039898.751] [63681:63683] [DMG] }
 ```
 
-コピーしたICACValueのbase64をデコードして保存（ここではnoc.cert）。
+コピーしたNOCValueのbase64をデコードして保存（ここではnoc.cert）。
 ```bash
 echo "FT~" | base64 -d > noc.cert
 ```
