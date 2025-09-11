@@ -64,9 +64,3 @@ chip-tool operationalcredentials read fabrics <Node-ID> 0 \
 ```bash
 chip-tool operationalcredentials remove-fabric <FabricIndex> <Node-ID> 0 
 ```
-出力結果例(保存しているファブリックの数が3の場合)
-```text
-~
-CommissionedFabrics: 3
-~
-```
