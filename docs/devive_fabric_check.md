@@ -60,7 +60,7 @@ chip-tool operationalcredentials read fabrics <Node-ID> 0 \
 ```
 
 ## デバイスの保存しているファブリックを指定して削除
-取得したファブリック情報からわかったFabricIndexとNodeIDを指定して、特定のファブリック情報を削除する。
+自分がコミッショニングしたファブリック情報を指定して削除する。
 ```bash
 chip-tool operationalcredentials remove-fabric <FabricIndex> <Node-ID> 0 
 ```
