@@ -2,6 +2,7 @@
 Matterの競合問題のセキュリティ検証に使用したchip-toolコマンドの内容まとめです。
 
 ## ドキュメント
+- chip-tool・chip-certのビルド手順(作成中)
 - コミッショニング手順([docs/commissioning.md](https://github.com/iisec-suzaki/Matter-Security/blob/main/docs/commissioning.md))
 - PAA・PAI・DACの確認([docs/devive_dac_check.md](https://github.com/iisec-suzaki/Matter-Security/blob/main/docs/devive_dac_check.md))
 - NOC・ICAC・RCACの確認([docs/devive_noc_check.md](https://github.com/iisec-suzaki/Matter-Security/blob/main/docs/devive_noc_check.md))
