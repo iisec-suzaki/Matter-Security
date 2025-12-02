@@ -1,7 +1,7 @@
 # chip-tool・chip-certのビルド手順
 
 ## 環境
-- Ubuntu 24.04.3 LTS
+- Ubuntu 22.04
 
 ## 準備
 ### １．依存パッケージのインストール
